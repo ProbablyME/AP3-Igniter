@@ -1,0 +1,37 @@
+ /* Style pour le tableau */
+ table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+/* Style pour le bouton Modifier */
+.btn-modifier {
+    color: black; /* Couleur du texte noir */
+    text-decoration: none; /* Supprime le soulignement */
+    font-weight: bold; /* Texte en gras pour plus de visibilité */
+}
+
+.btn-modifier:hover {
+    color: darkgray; /* Couleur lors du survol */
+}
+
+/* Style pour le bouton Supprimer */
+.btn-supprimer {
+    color: black; /* Couleur du texte noir */
+    text-decoration: none; /* Supprime le soulignement */
+    font-weight: bold; /* Texte en gras pour plus de visibilité */
+}
+
+.btn-supprimer:hover {
+    color: darkred; /* Couleur rouge foncé lors du survol */
+}
